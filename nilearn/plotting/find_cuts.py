@@ -145,7 +145,7 @@ def find_xyz_cut_coords(img, mask_img=None, activation_threshold=None):
 
 
 def _get_auto_mask_bounds(img):
-    """ Compute the bounds of the data with an automaticaly computed mask
+    """ Compute the bounds of the data with an automatically computed mask
     """
     data = _safe_get_data(img)
     affine = img.affine

@@ -247,7 +247,7 @@ def plot_img(img, cut_coords=None, output_file=None, display_mode='ortho',
             this should be a 3-tuple: (x, y, z)
             For display_mode == 'x', 'y', or 'z', then these are the
             coordinates of each cut in the corresponding direction.
-            If None is given, the cuts is calculated automaticaly.
+            If None is given, the cuts are calculated automatically.
             If display_mode is 'x', 'y' or 'z', cut_coords can be an integer,
             in which case it specifies the number of cuts to perform
         output_file: string, or None, optional
@@ -470,7 +470,7 @@ def plot_anat(anat_img=MNI152TEMPLATE, cut_coords=None,
             this should be a 3-tuple: (x, y, z)
             For display_mode == 'x', 'y', or 'z', then these are the
             coordinates of each cut in the corresponding direction.
-            If None is given, the cuts is calculated automaticaly.
+            If None is given, the cuts are calculated automatically.
             If display_mode is 'x', 'y' or 'z', cut_coords can be an integer,
             in which case it specifies the number of cuts to perform
         output_file : string, or None, optional
@@ -565,7 +565,7 @@ def plot_epi(epi_img=None, cut_coords=None, output_file=None,
             this should be a 3-tuple: (x, y, z)
             For display_mode == 'x', 'y', or 'z', then these are the
             coordinates of each cut in the corresponding direction.
-            If None is given, the cuts is calculated automaticaly.
+            If None is given, the cuts are calculated automatically.
             If display_mode is 'x', 'y' or 'z', cut_coords can be an integer,
             in which case it specifies the number of cuts to perform
         output_file : string, or None, optional
@@ -651,7 +651,7 @@ def plot_roi(roi_img, bg_img=MNI152TEMPLATE, cut_coords=None,
             this should be a 3-tuple: (x, y, z)
             For display_mode == 'x', 'y', or 'z', then these are the
             coordinates of each cut in the corresponding direction.
-            If None is given, the cuts is calculated automaticaly.
+            If None is given, the cuts are calculated automatically.
         output_file : string, or None, optional
             The name of an image file to export the plot to. Valid extensions
             are .png, .pdf, .svg. If output_file is not None, the plot
@@ -790,7 +790,7 @@ def plot_prob_atlas(maps_img, bg_img=MNI152TEMPLATE, view_type='auto',
             this should be a 3-tuple: (x, y, z)
             For display_mode == 'x', 'y', or 'z', then these are the
             coordinates of each cut in the corresponding direction.
-            If None is given, the cuts is calculated automaticaly.
+            If None is given, the cuts are calculated automatically.
             If display_mode is 'x', 'y' or 'z', cut_coords can be an integer,
             in which case it specifies the number of cuts to perform
         output_file : string, or None, optional
@@ -969,7 +969,7 @@ def plot_stat_map(stat_map_img, bg_img=MNI152TEMPLATE, cut_coords=None,
             this should be a 3-tuple: (x, y, z)
             For display_mode == 'x', 'y', or 'z', then these are the
             coordinates of each cut in the corresponding direction.
-            If None is given, the cuts is calculated automaticaly.
+            If None is given, the cuts are calculated automatically.
             If display_mode is 'x', 'y' or 'z', cut_coords can be an integer,
             in which case it specifies the number of cuts to perform
         output_file : string, or None, optional
